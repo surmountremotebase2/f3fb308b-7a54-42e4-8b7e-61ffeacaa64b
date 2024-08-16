@@ -11,6 +11,10 @@ class TradingStrategy(Strategy):
             Earnings("TSLA"),
             StockSplit("AAPL"),  # Assuming Magnificent 7 checks can be generalized or specifically listed.
             StockSplit("GOOGL"), # Repeat for others in Magnificent 7.
+            StockSplit("NVDA"),
+            StockSplit("MSFT"),
+            StockSplit("AMZN"),
+            StockSplit("META")
             # More StockSplit instances as needed...
         ]
         self.current_date = None
