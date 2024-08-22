@@ -1,1 +1,1 @@
-{"interval": "", "assets": ["NVDA"], "strategy": []}
+{"interval": "1min", "assets": ["NVDA", "AAPL"], "strategy": [{"type": "IF", "conditions": [{"type": "BINARY", "first": {"name": "VOLUME", "args": {"ticker": ""}}, "second": {"name": "", "args": {}}, "comp": ">", "operator": ""}, {"type": "BINARY", "first": {"name": "", "args": {"ticker": "", "length": 0}}, "second": {"name": "", "args": {}}, "comp": ">", "operator": "AND"}], "if_action": {"type": "ACTION", "steps": []}, "else_action": {"type": "ACTION", "steps": []}}]}
